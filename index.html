@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Launchpad — Ship Your Ideas Faster</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#" class="logo">Launchpad</a>
+      <!-- TODO (student task): make this a working hamburger menu on mobile -->
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#signup">Get Started</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Ship your next idea before your coffee gets cold.</h1>
+        <p class="subtitle">
+          Launchpad gives you the tools to plan, build, and launch products
+          without the busywork getting in the way.
+        </p>
+        <a href="#signup" class="btn btn-primary">Start free</a>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Why teams choose Launchpad</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3>Plan</h3>
+            <p>Turn rough ideas into clear roadmaps in minutes, not weeks.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Build</h3>
+            <p>Ship features with confidence using built-in review workflows.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Launch</h3>
+            <p>Go live with one click and track adoption from day one.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+      TODO (student task): finish this section.
+      Build out 3 pricing tiers (Free, Pro, Team), style the cards,
+      and highlight the "Pro" plan as recommended.
+    -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <h2>Pricing</h2>
+        <p>Pricing plans coming soon. This section needs your help!</p>
+      </div>
+    </section>
+
+    <!-- TODO (student task): wire up client-side validation for this form -->
+    <section id="signup" class="signup">
+      <div class="container">
+        <h2>Get early access</h2>
+        <form id="signup-form">
+          <input type="email" id="email" placeholder="you@example.com" />
+          <button type="submit" class="btn btn-primary">Notify me</button>
+        </form>
+        <p id="form-message"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Launchpad. Built as a practice project for learning Claude Code.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
